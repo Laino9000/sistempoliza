@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+.card {
+    width: 100px;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.globo {
+    border-radius: 25px;
+    padding: 12px;
+    background: rgb(200, 199, 199);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    position: relative;
+    width: 250px;
+    margin: 0 auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 1;
+}
+
+.globo::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    background: transparent;
+    width: 0px;
+    height: 0px;
+    border-bottom: 40px solid rgb(200, 199, 199);
+    border-right: 40px solid transparent;
+    border-left: 40px solid transparent;
+    transform: rotate(90deg);
+    z-index: -1;
+}
+
+.imagen {
+    width: 141px;
+    border-radius: 50%;
+    border: 8px double #f5e8e8;
+    width: 100px;
+}
