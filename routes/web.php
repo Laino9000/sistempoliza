@@ -51,8 +51,11 @@ Route::middleware([
 
     //rutas de opciones de pólizas
     Route::get('/polizas/index-Masivos', \App\Livewire\PolizasMasivas::class)->name('cargaMasiva');
-
+    Route::get('/polizas/index-Unidades', \App\Livewire\PolizaUni::class)->name('cargaUnidades');
+    
     // Panel
     Route::get('/dashboard/panel', \App\Livewire\Dashboard::class)->name('panel');
     Route::get('/panel/polizas', \App\Livewire\Polizas::class)->name('polizas');
+    Route::get('/panel/Usuarios', \App\Livewire\User::class)->name('Usuarios');
+    Route::get('/panel/Search', \App\Livewire\Search::class)->name('Search');
 });

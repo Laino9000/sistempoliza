@@ -105,7 +105,7 @@
                         </svg>
                     </a>
 
-                    <a href="#"
+                    <a href=""
                         class="group flex items-center px-4 py-4 text-blue-100/80 hover:text-white hover:bg-white/10 rounded-[1.5rem] transition-all duration-300 relative overflow-hidden">
                         <div
                             class="absolute left-0 w-1 h-0 group-hover:h-8 bg-[#e30613] transition-all duration-300 rounded-r-full">
@@ -136,7 +136,7 @@
                         </svg>
                     </a>
 
-                    <a href="#"
+                    <a href="{{ route('Usuarios') }}"
                         class="group flex items-center px-4 py-4 text-blue-100/80 hover:text-white hover:bg-white/10 rounded-[1.5rem] transition-all duration-300 relative overflow-hidden">
                         <div
                             class="absolute left-0 w-1 h-0 group-hover:h-8 bg-[#e30613] transition-all duration-300 rounded-r-full">

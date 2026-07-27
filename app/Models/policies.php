@@ -19,7 +19,7 @@ class policies extends Model
         'user_id',
         'client_id',
         'insured_name',
-        'total_premium',
+        'total',
         'currency',
         'start_date',
         'end_date',
